@@ -1,0 +1,74 @@
+/* import google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-register {
+    --bs-btn-color: #289BDE;
+    --bs-btn-border-color: #289BDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #289BDE;
+    --bs-btn-hover-border-color: #289BDE;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #289BDE;
+    --bs-btn-active-border-color: #289BDE;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #289BDE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #289BDE;
+    --bs-gradient: none;
+}
+
+.btn-theme {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #289BDE;
+    --bs-btn-border-color: #289BDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #289BDE;
+    --bs-btn-hover-border-color: #289BDE;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #289BDE;
+    --bs-btn-active-border-color: #289BDE;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #289BDE;
+    --bs-btn-disabled-border-color: #289BDE;
+
+}
+
+.theme-color {
+    color: #289BDE;
+}
+
+a.navbar-brand {
+    font-size: 30px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+
+}
+
+.carousel-item>img {
+    height: 100vh;
+}
