@@ -40,6 +40,11 @@ body {
 
 }
 
+.btn-theme:hover {
+    background: #fff;
+    color: #289BDE;
+}
+
 .theme-color {
     color: #289BDE;
 }
@@ -171,13 +176,13 @@ button.btn-modal:hover {
 
 .left {
     position: absolute;
-    top: 65%;
+    top: 50%;
     right: 94%;
 }
 
 .right {
     position: absolute;
-    top: 65%;
+    top: 50%;
     right: 36px;
 }
 
@@ -250,7 +255,25 @@ ul.footer-menu li a {
 
 /* Responsive */
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) and (min-width: 0px) {
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .registraion-title>h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .registraion-title>p {
+        font-size: 13px;
+    }
+
+    .student-title {
+        max-width: 100%;
+        text-align: center;
+    }
+
     .left span {
         display: none;
     }
@@ -258,10 +281,32 @@ ul.footer-menu li a {
     .right span {
         display: none;
     }
+
+    .our-brand {
+        display: none;
+    }
+
+    .course-features {
+        display: none;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) and (min-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .student-title {
+        max-width: 65%;
+    }
+
+    .registraion-title {
+        color: #fff;
+        text-align: center;
+    }
+
     .left span {
         display: none;
     }
