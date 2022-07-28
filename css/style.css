@@ -234,6 +234,20 @@ button.btn-modal:hover {
     text-align: center;
 }
 
+ul.footer-menu li {
+    list-style: none;
+}
+
+ul.footer-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social span i {
+    color: #fff;
+    font-size: 29px;
+}
+
 /* Responsive */
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) and (min-width: 0px) {
