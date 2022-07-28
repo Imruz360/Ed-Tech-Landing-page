@@ -72,3 +72,187 @@ a.navbar-brand {
 .carousel-item>img {
     height: 100vh;
 }
+
+.carousel-caption h1 {
+    font-size: 4rem;
+}
+
+p.section-text {
+    color: #777777;
+}
+
+p.card-text {
+    color: #777777;
+    font-size: 16px;
+}
+
+small.text-muted {
+    color: #289BDE !important;
+    font-weight: 800;
+}
+
+p.card-text>a {
+    text-decoration: none;
+}
+
+.features-content {
+    background-color: #F4FAFD;
+    padding: 105px;
+}
+
+.features-content>p {
+    line-height: 30px;
+    color: #777777;
+}
+
+.registration-box {
+    background-color: #289BDE;
+}
+
+.registration-box {
+    padding: 55px 50px;
+}
+
+.btn-modal {
+    --bs-btn-color: #289BDE;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fff;
+    --bs-btn-disabled-border-color: #fff;
+}
+
+button.btn-modal:hover {
+    background: #289BDE;
+    color: #fff;
+}
+
+.registraion-title {
+    color: #fff;
+}
+
+.registraion-title>h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.student-title p {
+    color: #777777;
+}
+
+.student-title {
+    max-width: 40%;
+}
+
+.star-icons {
+    color: gold;
+}
+
+.student-comment {
+    color: #777777;
+    line-height: 34px;
+}
+
+.student-name h5 {
+    font-weight: 800;
+}
+
+.student-name span {
+    color: #777777;
+}
+
+.left {
+    position: absolute;
+    top: 65%;
+    right: 94%;
+}
+
+.right {
+    position: absolute;
+    top: 65%;
+    right: 36px;
+}
+
+.right span {
+    background: #289BDE;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.right span i {
+    color: #fff;
+}
+
+.left span {
+    background: #c0e8ff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.left span i {
+    color: #289bde;
+}
+
+.faq-wrapper .accordion-button {
+    color: #4A4A4A;
+    font-weight: 800;
+}
+
+.faq-wrapper .accordion-item {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 73px 0px rgb(0 0 0 / 9%);
+    border: 0;
+}
+
+.footer-bg {
+    background: #161616;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-content address {
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsive */
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) and (min-width: 0px) {
+    .left span {
+        display: none;
+    }
+
+    .right span {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) and (min-width: 768px) {
+    .left span {
+        display: none;
+    }
+
+    .right span {
+        display: none;
+    }
+}
